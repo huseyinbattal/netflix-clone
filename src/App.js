@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import { auth } from "./firebase";
-import { useDispatch } from "react-redux";
-import { login, logout } from "./features/user/userSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { login, logout, selectUser } from "./features/user/userSlice";
 
 function App() {
-  const user = null;
+  const user = useSelector(selectUser)
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -35,7 +35,8 @@ function App() {
         {!user ? (
           <LoginScreen />
         ) : (
-          <Routes>
+            <Routes>
+            <Route  path="/profile" element={<ProfileScreen />} />
             <Route exact path="/" element={<HomeScreen />} />
           </Routes>
         )}
