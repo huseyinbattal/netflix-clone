@@ -23,6 +23,12 @@
   flex: 1;
 }
 
+.profileScreen__details > h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .profileScreen__body > h1 {
   font-size: 40px;
   font-weight: 400;
@@ -49,8 +55,8 @@
   cursor: pointer;
 }
 
-.profileScreen__plans{
-    margin-top: 20px;
+.profileScreen__plans {
+  margin-top: 20px;
 }
 
 .profileScreen__plans > h3 {
@@ -60,4 +66,20 @@
 
 .profileScreen__info > img {
   height: 100px;
+}
+
+.date{
+  margin: 15px 0;
+  font-family: monospace;
+
+  color: green;
+}
+
+.premium{
+  background-color: gray !important;
+  cursor: not-allowed !important;
+}
+
+.date_1{
+  color: #e50914;
 }
