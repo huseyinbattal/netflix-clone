@@ -26,6 +26,7 @@ Click to see [Live Demo](https://netflix-clone-23723.web.app/)
 
 # Technologies
 - React.JS
+- React Router Dom
 - Google Firebase
 - Redux State Management
 
@@ -36,3 +37,4 @@ Click to see [Live Demo](https://netflix-clone-23723.web.app/)
 - authenticate using google firebase
 - fetch data from TMDB api
 - sign in and sign up functionalty
+- route and navigate between pages
