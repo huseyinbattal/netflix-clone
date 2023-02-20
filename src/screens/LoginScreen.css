@@ -90,3 +90,12 @@ border: none;
 font-weight: 600;
 cursor: pointer;
 }
+
+.purpose{
+  color: white;
+  background-color: red;
+  width: 30%;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 5px;
+}

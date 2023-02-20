@@ -27,7 +27,9 @@ function LoginScreen() {
             <h3>
               Ready to watch? Enter your email to create or restart your
               membership.
-            </h3>
+                </h3>
+                <br/>
+                <h4 className="purpose">This app is created for learning purposes</h4>
             <div className="loginScreen__input">
               <form>
                 <input
