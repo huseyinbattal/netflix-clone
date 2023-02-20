@@ -20,7 +20,7 @@ npm start
 Open http://localhost:3000 with your browser to see the result.
 
 
-Click to see [Live Demo](https://netflix-clone-23723.web.app/)
+Click to see [Live Demo](https://netflix.huseyinbattal.com/)
 
 
 
