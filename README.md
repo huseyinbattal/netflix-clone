@@ -1,4 +1,4 @@
-# Instagram Clone
+# Netflix Clone
 
 ## Screen Shoot
 
